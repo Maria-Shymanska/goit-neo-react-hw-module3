@@ -1,0 +1,28 @@
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 24%;
+  min-width: 225px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+  gap: 15px;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.error {
+  color: #f00;
+  position: absolute;
+  bottom: -15px;
+  font-size: 12px;
+}
+
+.button {
+  align-self: center;
+}
